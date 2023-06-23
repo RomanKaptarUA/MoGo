@@ -1,11 +1,23 @@
+:root{
+    --title-color: #333333;
+    --text-color: #B6B6B6;
+    --logo-color: #95E1D3;
+    --line-color: #F38181;
+    --background-color: #fff;
+}
+
+
+
+
+
 .line{
     width: 60px;
     height: 4px;
-    background: #F38181;
+    background: var(--line-color);
 }
 
 a {
-    color: #95E1D3;
+    color: var(--logo-color);
 }
 
 .button {
@@ -26,9 +38,11 @@ a {
 .text {
     font-weight: 400;
     font-size: 24px;
+    color: var(--text-color);
 }
 
 .title{
     font-weight: 700;
     font-size: 30px;
+    color: var(--title-color)
 }
