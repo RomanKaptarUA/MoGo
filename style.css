@@ -6,24 +6,56 @@
     --background-color: #fff;
 }
 
+.header-title{
+    font-family: 'Montserrat' sans-serif;
+    color: var(--logo-color);
+    font-size: 38px;
+    font-weight: 700;
+}
 
 body{
-    font-family: 'Montserrat' sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 360px;
+    margin-top: 17px;
+    margin-bottom: 18px;
+    margin-right: 367px;
 }
 
-ul{
+.section-one{
+    margin-top: 81px;
+}
+
+.section-two{
+    margin-top: 100px;
+}
+
+ul,
+a{
     list-style: none;
+    text-decoration: none;
 }
 
+a{
+    color: var(--logo-color);
+}
 
+.who{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-item{
+    color: var(--logo-color);
+    font-size: 14px;
+}
+
+.header-item:hover
+.header-item:focus{
+    color: var(--line-color);
+}
 .line{
     width: 60px;
     height: 4px;
     background: var(--line-color);
-}
-
-a {
-    color: var(--logo-color);
 }
 
 .button {
@@ -42,13 +74,75 @@ a {
 }
 
 .text {
-    font-weight: 400;
+    color: var(--title-color);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
     font-size: 24px;
+    font-weight: 400;
+}
+
+.amazing-services {
+    color: var(--logo-color);
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.amazing-text{
     color: var(--text-color);
+    font-size: 15px;
+}
+
+.photography{
+    color: var(--title-color);
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-transform: uppercase;
 }
 
 .title{
     font-weight: 700;
     font-size: 30px;
     color: var(--title-color)
+}
+
+img{
+    width: 388px;
+}
+
+.team-name{
+    width: 14px;
+    height: 400;
+    text-transform: uppercase;
+}
+
+.team-position{
+    color: var(--text-color);
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.team-position{
+    color: var(--text-color);
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.footer{
+    margin-top: 80px;
+    border-top: 1px solid var(--text-color);
+    padding-top: 22px;
+    padding-bottom: 20px;
+}
+
+.footer-text{
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.footer-link{
+  color: var(--line-color);
 }
