@@ -22,7 +22,22 @@ body{
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    border: 2px solid red;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header{
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+.header-list{
+    display: flex;
+    gap: 55px;
 }
 
 .section-one{
@@ -47,7 +62,7 @@ a{
     font-size: 14px;
 }
 
-.header-item:hover
+.header-item:hover,
 .header-item:focus{
     color: var(--line-color);
 }
@@ -81,7 +96,7 @@ a{
 }
 
 .amazing-services {
-    color: var(--logo-color);
+    color: var(--title-color);
     font-size: 38px;
     font-weight: 700;
 }
@@ -144,4 +159,9 @@ img{
 
 .footer-link{
   color: var(--line-color);
+}
+
+.hero-item{
+    width: 328px;
+    display: flex;
 }
