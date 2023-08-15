@@ -197,6 +197,8 @@ img{
 
 .img-wrap{
     margin-right: 18px;
+    width: 37.796px;
+    height: 37px;
 }
 
 .p-wrap{
@@ -215,4 +217,10 @@ img{
 .team-text{
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+.team-item{
+    margin-right: 30px;
+    width: 380px;
+    height: 470px;
 }
