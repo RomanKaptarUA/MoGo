@@ -224,3 +224,7 @@ img{
     width: 380px;
     height: 470px;
 }
+
+.icon:hover{
+    fill: blue;
+}
